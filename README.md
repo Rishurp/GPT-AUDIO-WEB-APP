@@ -1,4 +1,4 @@
-# Mercor-GPT-AUDIO-WEB-APP-Assignment Readme
+# Mercor-GPT-AUDIO-WEB-APP-Assignment
 
 This is an assignment that involves creating a voice-controlled chatbot using React for the frontend and Express.js for the backend.
 
