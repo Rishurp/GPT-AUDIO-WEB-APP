@@ -1,0 +1,4 @@
+/node_modules
+.env
+openai_api_key
+requests.http
