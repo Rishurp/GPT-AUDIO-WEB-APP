@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import Artyom from 'artyom.js';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
 
 
 const artyom = new Artyom();
@@ -64,7 +65,7 @@ function App() {
   return (
     <div className="App">
       <div className="main">
-        <p>GPT BOT: {listening ? ' listening' : 'Waiting for Command'}</p>
+        <p>GPT BOT <SmartToyIcon/> :  {listening ? ' listening' : 'Waiting for Command'}</p>
         <button onClick={startListeningAtPress}>Start Speaking</button>
         <button onClick={SpeechRecognition.stopListening}>Stop Speaking</button>
         <p>{finalTranscript}</p>
