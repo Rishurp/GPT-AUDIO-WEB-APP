@@ -42,7 +42,7 @@ function App() {
 
 
   const getResponse = async (text) => {
-    await axios.post("https://gpt-audio-web-app-egem.onrender.com/api/voice"
+    await axios.post("https://gpt-audio-web-app-w4de.onrender.com/api/voice"
      ,
       {
         text: text
